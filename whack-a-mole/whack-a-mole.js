@@ -17,10 +17,13 @@ function putMoleInHole() {
 
   randomCell.appendChild(moleImage)
 }
+
 putMoleInHole()
+
 function whackaMole() {
   console.log(putMoleInHole)
   putMoleInHole()
+  //add audio for sound effect
   let audio = new Audio()
   audio.src = `whack-audio.wav`
   audio.play()
